@@ -1,1 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: 000000;
+}
 
+h1 {
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+}
+
+#button * {
+    padding: 10px;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    font-size: 12px;
+}
+
+#button {
+    width: 225px;
+    margin: 0 auto;
+}
+
+#wrapper {
+    position: relative;
+}
+
+#container {
+    display: inline-block;
+    padding: 30px;
+    border: solid 1px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(50%) translateX(-50%);
+    -webkit- transform: translateY(50%) translateX(-50%);
+}
+
+#time {
+    margin: 40px;
+    font-size: 60px;
+    text-align: center;
+}
